@@ -1,0 +1,25 @@
+body {
+    padding: 30px 15px 20px 15px;
+    background-color: #FCFCFC;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-align: center;
+}
+
+hr {
+    border-width: 1px;
+}
+
+#counter-trump {
+    text-align: center;
+    font-size: 35pt;
+    color: #333333;
+}
+
+#footer {
+    margin-top: 40px;
+    color: #999999;
+}
