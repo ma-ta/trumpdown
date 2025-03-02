@@ -22,8 +22,8 @@ var x = setInterval(function() {
     var seconds = Math.floor((delta % (1000 * 60)) / 1000);
     
     // Output the result in an element with id="counter-trump"
-    document.getElementById("counter-trump").innerHTML = years + " year(s) " + days + "d<br />" + hours + "h "
-    + minutes + "m " + seconds + "s ";
+    document.getElementById("counter-trump").innerHTML = years + "&nbsp;year(s) " + days + "&nbsp;d<br />" + hours + ":"
+    + minutes + ":" + seconds + ":";
     
     // If the count down is over, write some text
     if (delta <= 0) {
