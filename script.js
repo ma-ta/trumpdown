@@ -23,7 +23,7 @@ var x = setInterval(function() {
     
     // Output the result in an element with id="counter-trump"
     document.getElementById("counter-trump").innerHTML = years + "&nbsp;year(s) " + days + "&nbsp;d<br />" + hours + ":"
-    + minutes + ":" + seconds + ":";
+    + minutes + ":" + seconds;
     
     // If the count down is over, write some text
     if (delta <= 0) {
