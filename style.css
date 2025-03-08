@@ -1,3 +1,11 @@
+:root {
+    --color-rus-blue: #578de6;
+    --color-rus-red:  #b62022;
+    --color-usa-blue: #002147;  /* Old Glory Blue */
+    --color-usa-red:  #BB133E;  /* Old Glory Red  */
+}
+
+
 body {
     padding: 30px 15px 20px 15px;
     background-color: #FCFCFC;
