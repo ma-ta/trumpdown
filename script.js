@@ -27,8 +27,9 @@ let x = setInterval(function() {
                       + String(seconds).padStart(2, "0");
 
     // Output the result in an element with id="counter-trump"
-    document.getElementById("counter-trump").innerHTML = years + "&nbsp;year(s) " + days + "&nbsp;d<br />"
-    + formattedTime;
+    document.getElementById("counter-trump").innerHTML =
+        `<strong>${years}&nbsp;year${(years === 1) ? " " : "s "} ${days}&nbsp;d</strong><br />`
+        + formattedTime;
 
     // If the count down is over, write some text
     if (delta <= 0) {
